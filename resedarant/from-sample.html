@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <br>
+  <input type="password" id="fname" name="fname" value="" placeholder="first name"><br>
+  <br>
+  <input type="text" id="lname" name="lname" value="" placeholder="first name"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+<form action="/action_page.php" novalidate>
+     <input type="radio" id="html" name="fav_language" value="HTML">
+     <label for="html">HTML</label><br>
+     <input type="radio" id="css" name="fav_language" value="CSS">
+     <label for="css">CSS</label><br>
+     <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+     <label for="javascript">JavaScript</label>
+     <br>
+
+     <br>
+     <br>
+     <br>
+     <br>
+
+     <input type="button" value="HTML"><br>
+<input type="checkbox" value="HTML"><br>
+<input type="color"><br>
+<input type="date"><br>
+<input type="datetime-local"><br>
+<input type="email"><br>
+<input type="file"><br>
+<input type="hidden"><br>
+<input type="image"><br>
+<input type="month"><br>
+<input type="number"><br>
+<input type="password"><br>
+<input type="radio"><br>
+<input type="range"><br>
+<input type="reset"><br>
+<input type="search"><br>
+<input type="submit"><br>
+<input type="tel"><br>
+<input type="text"><br>
+<input type="time"><br>
+<input type="url"><br>
+<input type="week"><br>
+
+<br><br><br><br>
+    </form> 
+
+    <form action="/action_page.php">
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+        <input type="submit">
+      </form>
+<br>
+<br>
+      <form action="/action_page.php"
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range"  id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+</body>
+</html>
