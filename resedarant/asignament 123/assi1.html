@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Textarea Length Calculator</title>
+</head>
+<body>
+<p id="momo"></p>
+<p id="omo"></p>
+
+    <script>
+        var fruits=[]
+        var fruits=["apple","banana","orange"];
+       fruits.shift("apple");
+       fruits.push("grape");
+    fruits.splice(1,0,"pear");
+        console.log(fruits);
+ document.getElementById("momo").innerHTML=`"" `+ fruits +`""`
+
+    </script>
+
+
+<script>
+var person= {}
+person.name=`"john"`
+person.age=30
+person.city=`"New york"`;
+delete person.age
+person.job=`engineer`
+person.city=`san francisco`
+document.getElementById("omo").innerHTML= ``+person+``
+
+
+console.log(person);
+
+var cars= [];
+cars.push({make:"toyota", model:"camry", year:2018})
+cars.push({make:"toyota", model:"camry" ,year:2018})
+cars.push({make:"toyota", model:"camry" ,year:2018})
+
+
+
+cars.shift()
+cars.push({make:"honda",model:"civic", year:2020})
+
+if(cars.length >=2){
+    cars[1].model="accord"
+}
+console.log(cars);
+
+</script>
+</body>
+</html>

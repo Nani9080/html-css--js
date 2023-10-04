@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>length converter</title>
+    <link rel="stylesheet" href="inteee.css">
+
+</head>
+<body>
+    <div id="nani">
+<h2>cm into  inches</h2>
+<div class="priyan"> 
+    <input type="text" name="text" id="input"  placeholder="lengtn into cm"></div>
+    <div>
+
+        <button type="submit" onclick= "convert()" >to inches</button>
+    </div>
+    <div id="result">
+
+
+    </div>
+<script>
+    function convert(){
+
+
+
+
+        let cmvalue=  Number(  document.getElementById("input").value);
+ let inchvalue=cmvalue/2.54
+ let result=document.getElementById("result") .innerHTML=inchvalue.toFixed(3)+'inches'
+
+
+    }
+</script>
+
+
+
+</body>
+</html>

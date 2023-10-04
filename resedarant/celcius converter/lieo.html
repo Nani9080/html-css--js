@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>build a celcius</title>
+    <link rel="stylesheet" href="./live.css/lion.css">
+
+</head>
+<body>
+    <div id="sachin">
+    <h2>celcius to farhrenherit converter</h2>
+    <div>
+        <input type="text" id="input" placeholder="farhrenherit converter">;
+
+    </div>
+    <div>
+       <button type="submit" onclick= "convert()">farhrenherit converter</button>
+    </div>
+    
+<div id="result">
+
+</div>
+
+</div>
+
+    <script>
+
+
+function convert()
+{
+
+    let degree =Number(document.getElementById("input").value) ;
+    const farhrenherit= degree*(9/5)+32;
+    const result=document.getElementById('result')
+    result .innerHTML = farhrenherit.toFixed(2)+"farhrenherit";
+
+
+
+}
+
+  
+
+    </script>
+</body>
+</html>
